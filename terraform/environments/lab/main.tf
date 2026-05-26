@@ -8,3 +8,7 @@ module "iam" {
 module "network" {
   source = "../../modules/network"
 }
+
+module "encryption" {
+  source = "../../modules/encryption"
+}
