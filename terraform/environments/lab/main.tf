@@ -12,3 +12,7 @@ module "network" {
 module "encryption" {
   source = "../../modules/encryption"
 }
+
+module "monitoring" {
+  source = "../../modules/monitoring"
+}
